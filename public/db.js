@@ -52,5 +52,3 @@ function saveRecord(record) {
     const store = transaction.objectStore("pending");
     store.add(record);
 }
-
-//module.exports = {checkDatabase, saveRecord}
